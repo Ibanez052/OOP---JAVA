@@ -1,0 +1,24 @@
+package assignment;
+
+public class assops {
+	public static void main(String[] args) {
+		int num;
+		
+		num = 100;
+		num += 20;
+		System.out.println("Addition: " + num);
+		
+		num = 100;
+		num -= 30;
+		System.out.println("Subtraction: " + num);
+		
+		num = 12;
+		num *= 12;
+		System.out.println("Multiplication: " + num);
+		
+		num = 64;
+		num /= 4;
+		System.out.println("Division: " + num);
+	}
+
+}
